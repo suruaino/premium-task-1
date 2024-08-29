@@ -1,0 +1,21 @@
+.locations{
+    background-image: url(../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-position: 0% 2px;
+    background-repeat: repeat;
+    
+    background-size: 70%;
+    background-color: #FDF3F0;
+
+}
+
+@media (min-width: 768px) {
+    .locations{
+        background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+        background-position: 200% 30px;
+        background-repeat: no-repeat;
+        
+        background-size: 120%;
+        background-color: #FDF3F0;
+    }
+
+}

@@ -1,0 +1,50 @@
+.aboutPage {
+
+    /* background-image: url(../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg); */
+    background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+    background-repeat: repeat;
+    background-position: -68% 150px;
+    background-size: 250%;
+    background-color: #E7816B;
+
+}
+
+.aboutPageTalent{
+    background-image: url(../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-position: 0% 520px;
+    
+    background-size: 65%;
+    background-color: #FDF3F0;
+
+}
+
+.aboutPageTheReal{
+    background-image: url(../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-position: 0% 520px;
+    
+    background-size: 65%;
+    background-color: #FDF3F0;
+
+}
+@media (min-width: 768px) {
+    .aboutPage{
+    background-image: url(../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-position: 8% bottom ;
+    }
+
+    .aboutPageTalent{
+        background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 0% 350px;
+        background-size: 80%;
+        background-color: #FDF3F0;
+    }
+    .aboutPageTheReal{
+        background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 0% 350px;
+        background-size: 80%;
+        background-color: #FDF3F0;
+    }
+    
+}

@@ -7,6 +7,7 @@ import More from "../components/home-more/More";
 export default function Home() {
   return (
     <main className="w-full flex flex-col items-center gap-28">
+      
       <Hero />
       <Projects />
       <More />

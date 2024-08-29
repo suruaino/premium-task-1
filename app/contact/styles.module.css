@@ -1,0 +1,10 @@
+.contactPage {
+
+    /* background-image: url(../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg); */
+    background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+    background-repeat: repeat;
+    background-position: -68% 150px;
+    background-size: 250%;
+    background-color: #E7816B;
+
+}
