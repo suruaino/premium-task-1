@@ -1,10 +1,30 @@
 .contactPage {
-
-    /* background-image: url(../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg); */
     background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
     background-repeat: repeat;
-    background-position: -68% 150px;
-    background-size: 250%;
+    background-position: 80% 0px;
+    background-size: 200%;
     background-color: #E7816B;
+
+}
+
+@media (min-width: 768px) {
+    .contactPage{
+        background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+        background-repeat: repeat;
+        background-position: 105% -130px;
+        background-size: 350%;
+        background-color: #E7816B;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .contactPage{
+        background-image: url(../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+        background-repeat: repeat;
+        background-position: 188% -115px;
+        background-size: 155%;
+        background-color: #E7816B;
+    }
 
 }

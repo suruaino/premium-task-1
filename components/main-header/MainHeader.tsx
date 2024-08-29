@@ -13,7 +13,8 @@ const MainHeader = () => {
             alt="Main Header Logo"
           />
         </div>
-        <nav className="flex md:gap-[42px]">
+        <nav className="flex gap-5 md:gap-[42px]">
+          <Link href="/">Home</Link>
           <Link href="/aboutus">Our Company</Link>
           <Link href="/locations">Locations</Link>
           <Link href="/contact">Contact</Link>
