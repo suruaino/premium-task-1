@@ -13,7 +13,7 @@ const WebDesignPage = () => {
   return (
     <div className="webdesignpage flex flex-col gap-20">
         <div
-          className={`page-header text-center w-[90%] md:max-w-[80%] h-[252px] flex flex-col justify-center items-center self-center gap-2 rounded-2xl ${styles.webdesign}`}>
+          className={`page-header text-white text-center w-[90%] md:max-w-[80%] h-[252px] flex flex-col justify-center items-center self-center gap-2 rounded-2xl ${styles.webdesign}`}>
 
           <h2 className="text-[48px]">Web Design</h2>
           <p className="max-w-[400px]">

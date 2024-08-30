@@ -1,9 +1,9 @@
 
-import { url } from "inspector";
 import Image from "next/image"
+
 const More = () => {
     return(
-        <section className="more w-full max-w-[80%] flex flex-col md:flex-row justify-between gap-[48px]">
+        <section className="more text-black w-full max-w-[80%] flex flex-col md:flex-row justify-between gap-[48px]">
             <div className="passionate w-full md:max-w-[350px] flex flex-col items-center text-center gap-[48px]">
                 <div className="img-box"
                     style={{

@@ -14,7 +14,7 @@ const AboutPage = () => {
   return (
     <div className="about flex flex-col md:gap-20">
       <section
-        className={`about-hero text-center md:text-start w-full md:max-w-[80%] h-[715px] md:h-[480px] flex flex-col md:flex-row justify-center items-center self-center gap-2 md:rounded-2xl overflow-hidden ${styles.aboutPage}`}
+        className={`about-hero text-white text-center md:text-start w-full md:max-w-[80%] h-[715px] md:h-[480px] flex flex-col md:flex-row justify-center items-center self-center gap-2 md:rounded-2xl overflow-hidden ${styles.aboutPage}`}
       >
         <div className="left w-full h-[60%] md:h-full md:w-[60%] px-5 md:px-24 flex flex-col justify-center order-2 md:order-1">
           <h2 className="text-[32px] md:text-[48px]">About Us</h2>

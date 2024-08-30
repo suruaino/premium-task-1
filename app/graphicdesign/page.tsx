@@ -5,14 +5,14 @@ import styles from "./styles.module.css";
 
 const GraphicDesign = () => {
   return (
-    <div className="appdesign flex flex-col gap-20">
+    <div className="graphicdesign text-white flex flex-col gap-20">
       <div
         className={`page-header text-center w-[90%] md:max-w-[80%] h-[252px] flex flex-col justify-center items-center self-center gap-2 rounded-2xl ${styles.graphicdesign}`}
       >
         <h2 className="text-[48px]">Graphic Design</h2>
         <p className="max-w-[400px]">
-        We deliver eye-catching branding materials that are 
-        tailored to meet your business objectives.
+          We deliver eye-catching branding materials that are tailored to meet
+          your business objectives.
         </p>
       </div>
 
@@ -34,7 +34,7 @@ const GraphicDesign = () => {
               TIM BROWN
             </h2>
             <p className="max-w-[80%]">
-            A book cover designed for Tim Brown’s new release, ‘Change’
+              A book cover designed for Tim Brown’s new release, ‘Change’
             </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ const GraphicDesign = () => {
               BOXED WATER
             </h2>
             <p className="max-w-[80%]">
-            A simple packaging concept made for Boxed Wate
+              A simple packaging concept made for Boxed Wate
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ const GraphicDesign = () => {
               SCIENCE
             </h2>
             <p className="max-w-[80%]">
-            A poster made in collaboration with the Federal Art Project
+              A poster made in collaboration with the Federal Art Project
             </p>
           </div>
         </div>

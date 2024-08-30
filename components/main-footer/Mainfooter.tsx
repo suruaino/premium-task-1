@@ -16,9 +16,9 @@ const MainFooter = () => {
           </div>
 
           <nav className="uppercase tracking-widest flex flex-col md:flex-row items-center gap-4 md:gap-[42px]">
-            <Link href="">Our Company</Link>
-            <Link href="">Locations</Link>
-            <Link href="">Contact</Link>
+            <Link href="/aboutus" className="hover:underline">Our Company</Link>
+            <Link href="/locations" className="hover:underline">Locations</Link>
+            <Link href="/contact" className="hover:underline">Contact</Link>
           </nav>
         </div>
 

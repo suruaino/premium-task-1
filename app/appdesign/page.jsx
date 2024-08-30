@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 const AppDesign = () => {
   return (
-    <div className="appdesign flex flex-col gap-20">
+    <div className="appdesign text-white flex flex-col gap-20">
       <div
         className={`page-header text-center w-[90%] md:max-w-[80%] h-[252px] flex flex-col justify-center items-center self-center gap-2 rounded-2xl ${styles.appdesign}`}
       >

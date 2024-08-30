@@ -4,9 +4,20 @@
     background-position: center left;
     background-color: #E7816B;
 }
+.right{
+    background: url(../../public/assets/home/desktop/image-hero-phone.png);
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-color: transparent;
+
+}
 @media (min-width: 768px) {
     .hero{
         background-position: right;
+    }
+    .right{
+        background-position: center 25%;
+    
     }
 
 }

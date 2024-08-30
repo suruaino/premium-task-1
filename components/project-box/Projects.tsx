@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const Projects = () => {
   return (
     <section
-      className={`projects text-white w-full md:h-[640px] max-w-[80%] flex flex-col md:flex-row gap-6 ${styles.projects}`}
+      className={`projects text-white w-full md:h-[640px] max-w-[90%] md:max-w-[80%] flex flex-col md:flex-row gap-6 ${styles.projects}`}
     >
       <div className="left w-full md:w-1/2 h-[250px] md:h-auto flex justify-center items-center">
         <Link
