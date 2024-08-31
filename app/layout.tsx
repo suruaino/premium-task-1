@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Jost } from "next/font/google";
-import Header from "../components/main-header/MainHeader"
+// import Header from "../components/main-header/MainHeader"
 import Footer from "../components/main-footer/Mainfooter"
 import "./globals.css";
 
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={jost.className}>
-        <Header />
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>
