@@ -15,8 +15,8 @@ const WebDesignPage = () => {
         <div
           className={`page-header text-white text-center w-[90%] md:max-w-[80%] h-[252px] flex flex-col justify-center items-center self-center gap-2 rounded-2xl ${styles.webdesign}`}>
 
-          <h2 className="text-[48px]">Web Design</h2>
-          <p className="max-w-[400px]">
+          <h2 className="text-[32px] md:text-[48px]">Web Design</h2>
+          <p className="max-w-[95%] md:max-w-[400px]">
             We build websites that serve as powerful marketing tools and bring
             memorable brand experiences.
           </p>

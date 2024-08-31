@@ -9,8 +9,8 @@ const GraphicDesign = () => {
       <div
         className={`page-header text-center w-[90%] md:max-w-[80%] h-[252px] flex flex-col justify-center items-center self-center gap-2 rounded-2xl ${styles.graphicdesign}`}
       >
-        <h2 className="text-[48px]">Graphic Design</h2>
-        <p className="max-w-[400px]">
+        <h2 className="text-[32px] md:text-[48px]">Graphic Design</h2>
+        <p className="max-w-[95%] md:max-w-[400px] text-[15px] md:text-[16px]">
           We deliver eye-catching branding materials that are tailored to meet
           your business objectives.
         </p>

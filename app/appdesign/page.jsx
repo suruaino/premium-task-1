@@ -9,8 +9,8 @@ const AppDesign = () => {
       <div
         className={`page-header text-center w-[90%] md:max-w-[80%] h-[252px] flex flex-col justify-center items-center self-center gap-2 rounded-2xl ${styles.appdesign}`}
       >
-        <h2 className="text-[48px]">App Design</h2>
-        <p className="max-w-[400px]">
+        <h2 className="text-[32px] md:text-[48px]">App Design</h2>
+        <p className="max-w-[95%] md:max-w-[400px]">
         Our mobile designs bring intuitive digital solutions
         to your customers right at their fingertips.
         </p>

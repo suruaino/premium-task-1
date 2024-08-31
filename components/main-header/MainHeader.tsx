@@ -62,7 +62,7 @@ const MainHeader = () => {
             />
             {showNav &&
             
-            <ul className="bg-[#1D1C1E] text-black text-[24px] w-full py-8 px-4 flex flex-col gap-8 absolute right-0 top-[125px] z-50">
+            <ul className="bg-[#1D1C1E] text-white text-[24px] w-full py-8 px-4 flex flex-col gap-8 absolute right-0 top-[125px] z-50">
               <div className="overlay bg-[#00000080] h-screen absolute inset-0 -z-10"></div>
               <Link href="/" onClick={menuToggle} className="hover:underline">Home</Link>
               <Link href="/aboutus" onClick={menuToggle} className="hover:underline">Our Company</Link>

@@ -2,7 +2,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./styles.module.css";
-import Button from "../../components/buttons/button-1/Button";
+import Button1 from "../../components/buttons/button-1/Button";
+import Button from "../../components/buttons/button-2/Button";
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -57,7 +58,7 @@ const Contact = () => {
       >
         <div className="left w-full md:max-w-[85%] lg:max-w-[55%] lg:h-full lg:w-[55%] lg:pl-24 flex flex-col justify-center items-center md:items-start gap-4 md:order-1">
           <h2 className="text-[32px] md:text-[48px]">Contact Us</h2>
-          <p className="text-[15px] md:text-[16px] lg:max-w-[450px]">
+          <p className="text-[15px] md:text-[16px] max-w-[85%] lg:max-w-[450px]">
             Ready to take it to the next level? Let’s talk about your project or
             idea and find out how we can help your business grow. If you are
             looking for unique digital experiences that’s relatable to your
@@ -149,14 +150,14 @@ const Contact = () => {
 }
             </div>
             <div className="btn-box w-full flex justify-end">
-            <Button value="SUBMIT" />
+            <Button1 value="SUBMIT" />
             </div>
             
           </form>
         </div>
       </section>
 
-      <section className="places w-full max-w-[80%] py-20 md:py-0 md:pb-20 flex flex-col md:flex-row justify-between self-center gap-[48px]">
+      <section className="places text-black w-full max-w-[80%] py-20 md:py-0 md:pb-20 flex flex-col md:flex-row justify-between self-center gap-[48px]">
         <div className="passionate w-full md:max-w-[350px] flex flex-col items-center text-center gap-[48px]">
           <div
             className="img-box"

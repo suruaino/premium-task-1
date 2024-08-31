@@ -25,7 +25,7 @@ const MainFooter = () => {
         <hr className="my-4 border border-t-0 border-b-gray-600 hidden md:block" />
 
         <div className="bottom text-center md:text-left flex flex-col md:flex-row justify-between items-center md:items-end gap-12 md:gap-0">
-          <div className="addresses text-gray-500 text-[16px] flex flex-col md:flex-row gap-12 md:gap-28">
+          <div className="addresses text-[#ffffff96] text-[16px] flex flex-col md:flex-row gap-12 md:gap-28">
             <p>
               <b>Designo Central Office</b> <br />
               3886 Wellington Street <br />
