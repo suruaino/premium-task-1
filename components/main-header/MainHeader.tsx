@@ -7,20 +7,37 @@ import close from "../../public/assets/shared/mobile/icon-close.svg";
 
 const MainHeader = () => {
   const [showNav, setShowNav] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 485);
+  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(window.innerWidth <= 485);
 
   const menuToggle = () => {
     setShowNav((prev) => !prev);
   };
 
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setIsMobile(window.innerWidth <= 640);
+  //   };
+
+  //   window.addEventListener("resize", handleResize);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 640);
     };
 
-    window.addEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      setIsMobile(window.innerWidth <= 640);
+      window.addEventListener("resize", handleResize);
+    }
+
     return () => {
-      window.removeEventListener("resize", handleResize);
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+      }
     };
   }, []);
 
